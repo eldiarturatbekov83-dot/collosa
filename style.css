@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: #0b0b22;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  button {
+    padding: 10px 20px;
+    background: #ffffff1a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .headerNav {
+    display: flex;
+    gap: 60px;
+
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      color: #ffffffcc;
+    }
+  }
+}
+
+.hero {
+  .section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 200px 150px 100px 150px;
+    gap: 30px;
+
+    h3 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 10%;
+      color: aqua;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 54px;
+      color: #ffffff;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff99;
+    }
+
+    .actionBtn {
+      .SendBtn {
+        padding: 10px 40px;
+        background: #6016fc;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .LearnBtn {
+        padding: 10px 40px;
+        background: #ffffff1a;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .featureCard {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff0d;
+    padding: 40px;
+    margin: 80px 200px;
+    gap: 20;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 100px ;
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 30px;
+    background: #ffffff0d;
+    width: 328px;
+    height: 276px;
+    border-radius: 5px;
+
+    h4 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 50px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000000;
+  padding: 30px 60px;
+  margin-bottom: 40px;
+}
